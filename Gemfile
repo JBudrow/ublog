@@ -35,6 +35,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  # 'rspec-rails' is a testing framework for Rails 3.x and 4.x
+  gem 'rspec-rails'
 end
 
 group :development do
@@ -45,3 +47,7 @@ group :development do
   gem 'spring'
 end
 
+group :test do
+  # Acceptance test framework for web applications 
+  gem 'capybara'
+end

@@ -9,6 +9,8 @@ gem 'sqlite3'
 gem 'bootstrap-sass'
 # Tool to parse CSS and add vendor prefixes to CSS rules
 gem 'autoprefixer-rails'
+# Flexible authentication solution for Rails with Warden
+gem 'devise'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -43,7 +45,7 @@ group :development, :test do
   gem 'rspec-rails'
   # Command line tool to easily handle events on file system modifications
   gem 'guard-rspec', require: false
-  # Implements the RSpec command for Spring 
+  # Implements the RSpec command for Spring
   gem 'spring-commands-rspec'
 end
 

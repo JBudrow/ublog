@@ -41,6 +41,10 @@ group :development, :test do
   gem 'byebug'
   # 'rspec-rails' is a testing framework for Rails 3.x and 4.x
   gem 'rspec-rails'
+  # Command line tool to easily handle events on file system modifications
+  gem 'guard-rspec', require: false
+  # Implements the RSpec command for Spring 
+  gem 'spring-commands-rspec'
 end
 
 group :development do
